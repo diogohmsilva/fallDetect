@@ -6,10 +6,12 @@
 
 HTTPClient http;
 
+//Enter WiFI Credentials
+const char* ssid = "";
+const char* password = "";
+
 int patientID = 2;
-
 char id[10];
-
 
 LSM303 accelerometer;
 
@@ -142,7 +144,7 @@ void setup() {
   Wire.onReceive(receiveEvent); // register event
   accelerometer.enableDefault();
 
-  WiFi.begin("MEO-F2BA66", "50AEFCA5C5");   //WiFi connection
+  WiFi.begin(ssid, password);   //WiFi connection
   
   while (WiFi.status() != WL_CONNECTED) {
     delay(2000);
