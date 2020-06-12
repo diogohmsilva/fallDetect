@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "688197125905",
+    "firebase_url": "https://rmsf-fall-detection.firebaseio.com",
+    "project_id": "rmsf-fall-detection",
+    "storage_bucket": "rmsf-fall-detection.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688197125905:android:ab2c4249c4cbf7fb3a6eb0",
+        "android_client_info": {
+          "package_name": "com.companyname.rmsf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688197125905-1t0agcoh7um3lo4hd109m0f1qvklnja7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqAi5fIGuH0n7_s3FwfQlgqIVZ-S7wXKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688197125905-1t0agcoh7um3lo4hd109m0f1qvklnja7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

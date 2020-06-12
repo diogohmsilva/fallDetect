@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:views="clr-namespace:RMSF.Views"
+             mc:Ignorable="d"
+             x:Class="RMSF.Views.NewPatientPage"
+             Title="New Patient">
+
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Cancel" Clicked="Cancel_Clicked" />
+        <ToolbarItem Text="Save" Clicked="Save_Clicked" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <StackLayout Spacing="20" Padding="15">
+            <Label Text="Name" FontSize="Medium" />
+            <Entry Text="{Binding name}" d:Text="Patient name" FontSize="Small" />
+            <Label Text="Surname" FontSize="Medium" />
+            <Entry Text="{Binding surname}" d:Text="Patient surname" FontSize="Small"/>
+            <Label Text="Age" FontSize="Medium" />
+            <Entry Text="{Binding age}" d:Text="Patient age" FontSize="Small" />
+            <Label Text="Address" FontSize="Medium" />
+            <Entry Text="{Binding address}" d:Text="Patient address" FontSize="Small"/>
+            <Picker x:Name="picker" Title="Risk">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Low</x:String>
+                        <x:String>Medium</x:String>
+                        <x:String>High</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

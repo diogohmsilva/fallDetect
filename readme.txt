@@ -7,5 +7,3 @@ When a fall is detected:
 - the App will receive a notification regarding the situation (through Firebase Cloud Messaging)
 
 A more detailed explanation of the system in general is given in the pdf Project Report.
-
-The app project is available in the fallDetectApp repository.
