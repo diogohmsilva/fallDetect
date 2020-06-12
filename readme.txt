@@ -8,3 +8,4 @@ When a fall is detected:
 
 A more detailed explanation of the system in general is given in the pdf Project Report.
 
+The app project is available in the fallDetectApp repository.
