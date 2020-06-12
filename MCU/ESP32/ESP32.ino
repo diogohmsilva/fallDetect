@@ -9,8 +9,8 @@
 #include "soc/rtc_cntl_reg.h"
 
 //Enter WiFI Credentials
-const char* ssid = "MEO-F2BA66";
-const char* password = "50AEFCA5C5";
+const char* ssid = "";
+const char* password = "";
 
 int patientID = 2;
 bool hasPhotoDir = false;
